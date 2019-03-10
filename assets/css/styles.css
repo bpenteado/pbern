@@ -75,7 +75,7 @@ img {
 .sidebar {
 	display: flex;
 	flex: 0 1 250px;
-	min-width: 150px;
+	/* min-width: 150px; */
 	flex-direction: column;
 	justify-content: flex-start;
 }
@@ -100,7 +100,7 @@ img {
 
 .text .left {
 	flex: 0 1 200px;
-	min-width: 160px;
+	/* min-width: 160px; */
 }
 
 .pages {
