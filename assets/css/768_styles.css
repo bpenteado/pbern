@@ -65,7 +65,7 @@ img {
 }
 
 .top-container {
-	height: 75px;
+	height: 65px;
 }
 .bottom-container {
 	display: flex;
@@ -88,7 +88,7 @@ img {
 	flex-direction: column;
 	justify-content: space-between;
 	min-height: 50px;
-	margin: 15px 0px 15px 0px;
+	margin: 25px 0px 25px 0px;
 }
 
 .content {
