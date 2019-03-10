@@ -75,7 +75,7 @@ img {
 .sidebar {
 	display: flex;
 	flex: 0 1 250px;
-	min-width: 150px;
+	min-width: 120px;
 	flex-direction: column;
 	justify-content: flex-start;
 }
