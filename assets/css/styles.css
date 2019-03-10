@@ -1,7 +1,8 @@
-* {
+body {
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
+	font-size: 1em;
 }
 
 html {
@@ -131,10 +132,4 @@ img {
 	padding-bottom:2%;
 	padding-left:2%;
 	width:50%;
-}
-
-@media only screen and (max-width: 444px) {
-    body {
-    	font-size: 26px;
-    }
 }
