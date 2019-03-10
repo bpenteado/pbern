@@ -12,8 +12,8 @@ html {
 }
 
 h2 {
+	font-family: 'Lekton', sans-serif;
 	margin: 0px;
-
 }
 
 a {
@@ -32,6 +32,11 @@ ul {
 
 ul.menu {
 	margin: 0px;
+}
+
+ul.menu li {
+	display: inline;
+	margin: 2%;
 }
 
 table {
@@ -60,11 +65,12 @@ img {
 }
 
 .top-container {
-	height: 100px;
+	height: 75px;
 }
 .bottom-container {
 	display: flex;
 	height:100vh;
+	flex-direction: column;
 	justify-content: flex-start;
 }
 
@@ -78,26 +84,26 @@ img {
 
 .sidebar {
 	display: flex;
-	flex: 0 1 250px;
-	min-width: 120px;
+	flex: 0 1 50px;
 	flex-direction: column;
-	justify-content: flex-start;
+	justify-content: space-between;
+	margin: 15px 0px 15px 0px;
 }
 
 .content {
-	width: 1100px;
+	width: 100%;
 }
 
 .text {
 	display: flex;
+	flex-direction: column;
 	justify-content: flex-start;
 	margin-bottom:50px;
 }	
 
 .text .left {
-	flex: 0 1 200px;
+	flex: 0 0 60px;
 	min-width: 160px;
-	vertical-align: text-top;
 }
 
 .block {
@@ -109,11 +115,14 @@ img {
 }
 
 .pages {
-	height:150px;
+	text-align: center;
+	height: 30px;
 }
 
 .accounts {
-	height:100px;
+	height: 30px;
+	text-align: center;
+	font-size: 0.75em;
 }
 
 #arena {
