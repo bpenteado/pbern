@@ -14,6 +14,7 @@ html {
 h2 {
 	font-family: 'Lekton', sans-serif;
 	margin: 0px;
+	text-align: center;
 }
 
 a {
@@ -93,6 +94,7 @@ img {
 
 .content {
 	width: 100%;
+	text-align: center;
 }
 
 .text {
