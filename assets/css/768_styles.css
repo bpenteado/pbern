@@ -86,7 +86,8 @@ img {
 	display: flex;
 	flex: 0 1 auto;
 	flex-direction: column;
-	justify-content: flex-start;
+	justify-content: space-between;
+	min-height: 10vh;
 	margin: 15px 0px 15px 0px;
 }
 
@@ -116,14 +117,14 @@ img {
 
 .pages {
 	text-align: center;
-	height: 5vh;
 	font-size: 0.9em;
+	height:50%;
 }
 
 .accounts {
-	height: 5vh;
 	text-align: center;
 	font-size: 0.75em;
+	height:50%;
 }
 
 #arena {
