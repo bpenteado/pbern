@@ -86,7 +86,7 @@ img {
 	display: flex;
 	flex: 0 1 auto;
 	flex-direction: column;
-	justify-content: space-between;
+	justify-content: flex-start;
 	margin: 15px 0px 15px 0px;
 }
 
@@ -116,11 +116,12 @@ img {
 
 .pages {
 	text-align: center;
-	height: 5vh;
+	height: 10vh;
+	font-size: 0.9em;
 }
 
 .accounts {
-	height: 5vh;
+	height: 10vh;
 	text-align: center;
 	font-size: 0.75em;
 }
