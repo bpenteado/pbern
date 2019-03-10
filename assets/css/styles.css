@@ -13,7 +13,7 @@ html {
 
 h2 {
 	font-family: 'Lekton', sans-serif;
-	margin-bottom: 20px;
+	margin: 0px 0px 10px 0px;
 }
 
 a {
@@ -75,7 +75,7 @@ img {
 .sidebar {
 	display: flex;
 	flex: 0 1 250px;
-	min-width: 100px;
+	min-width: 150px;
 	flex-direction: column;
 	justify-content: flex-start;
 }
@@ -93,6 +93,7 @@ img {
 .text .left {
 	flex: 0 1 200px;
 	min-width: 160px;
+	vertical-align: text-top;
 }
 
 .block {
@@ -143,7 +144,7 @@ img {
 	}	
 
 	.text .left {
-		flex: 0 0 50px;
+		flex: 0 0 40px;
 		min-width: 160px;
 	}
 }
