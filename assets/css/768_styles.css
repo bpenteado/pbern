@@ -87,7 +87,7 @@ img {
 	flex: 0 1 auto;
 	flex-direction: column;
 	justify-content: space-between;
-	min-height: 10vh;
+	min-height: 50px;
 	margin: 15px 0px 15px 0px;
 }
 
