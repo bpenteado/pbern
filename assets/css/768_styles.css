@@ -52,10 +52,6 @@ img {
 	height: auto;
 }
 
-<<<<<<< HEAD
-
-=======
->>>>>>> 5265fd37d0e37525eea7c9737e0bebafd8a128c0
 .sidebar {
 	display: flex;
 	flex: 0 1 220px;
@@ -66,12 +62,7 @@ img {
 }
 
 .sidebox {
-<<<<<<< HEAD
 	margin-bottom: 5vh;
-
-=======
-	margin-bottom: 2.5vh;
->>>>>>> 5265fd37d0e37525eea7c9737e0bebafd8a128c0
 }
 
 .imgcontainer {
