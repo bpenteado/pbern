@@ -11,12 +11,7 @@ html {
 	line-height:1.25;
 }
 
-h2 {
-	font-family: 'Lekton', sans-serif;
-	margin: 0px;
-	text-align: center;
-}
-
+/* link tags */
 a {
 	text-decoration: none;
 	color: black;
@@ -25,6 +20,8 @@ a {
 a:hover {
 	color: red;
 }
+
+/* list tags */
 
 ul {
 	list-style: none;
@@ -41,6 +38,8 @@ ul.menu li {
 	margin: 0.75%;
 }
 
+/* image tags */
+
 img.logo {
 	display: block;
 	margin-left: auto;
@@ -51,6 +50,16 @@ img.logo {
 img {
 	max-width:100%;
 	height: auto;
+}
+
+/* paragraph tags */
+
+p.supertitle {
+	margin-top:30px;
+}
+
+p.subtitle {
+	margin-top:0px;
 }
 
 .sidebar {
