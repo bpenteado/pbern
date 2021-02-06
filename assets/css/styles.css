@@ -59,12 +59,11 @@ img {
 	height: auto;
 }
 
-img#man {
-	display: block;
-	margin: auto;
+img#berber {
+	max-width:300px;
 }
 
-img#berber {
+img#buyukada {
 	max-width:300px;
 }
 
@@ -104,7 +103,7 @@ p.subtitle {
 .imgcontainer {
 	display: flex;
 	flex-direction:column;
-	justify-contet: flex-start;
+	justify-content: flex-start;
 	/*flex: 0 1 830px;*/
 	border: 10px solid red;
 }
