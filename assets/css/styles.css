@@ -52,6 +52,10 @@ ul.list {
 	margin: 20px;
 }
 
+li {
+	margin: 0.5em 0;
+}
+
 /* image tags */
 
 img {
@@ -130,10 +134,6 @@ p.subtitle {
 	margin-bottom:50px;
 }
 
-.block li {
-	margin: 1em 0;
-}
-
 /* account coloring */
 
 #arena {
@@ -149,7 +149,7 @@ p.subtitle {
 }
 
 #strava{
-	color: #FFA62F;
+	color: #f08800;
 }
 
 

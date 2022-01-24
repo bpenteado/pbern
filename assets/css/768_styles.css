@@ -52,6 +52,10 @@ ul.menu li {
 	margin: 0.75%;
 }
 
+li {
+	margin: 0.5em 0;
+}
+
 /* image tags */
 
 img.logo {
@@ -90,13 +94,13 @@ p.subtitle {
 	display: flex;
 	flex: 0 1 220px;
 	min-width: 200px;
-	flex-direction: column;
+	flex-direction: row;
 	justify-content: flex-start;
-	margin-bottom: 5.5vh;
+	margin-bottom: 1em;
 }
 
 .sidebox {
-	margin-bottom: 2vh;
+	margin-bottom: 0;
 }
 
 .imgcontainer {
@@ -109,7 +113,7 @@ p.subtitle {
 
 .content {
 	width: 100%;
-	text-align: center;
+	text-align: left;
 }
 
 .longblock {
@@ -128,9 +132,6 @@ p.subtitle {
 	margin-bottom:50px;
 }
 
-.block li {
-	margin: 1em 0;
-}
 
 /* account coloring */
 
@@ -147,6 +148,6 @@ p.subtitle {
 }
 
 #strava{
-	color: #FFA62F;
+	color: #f08800;
 }
 
