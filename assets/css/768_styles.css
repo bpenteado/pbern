@@ -9,6 +9,7 @@ html {
 	background-color: #fffdf8;
 	color: #222;
 	font-family: 'Inter', sans-serif;
+	font-weight: 300;
 	margin: 5%;
 	line-height:1.25;
 	overflow-y: scroll;
