@@ -22,16 +22,22 @@ a {
 
 a.list-link {
 	text-decoration: none;
-	background-color: rgb(242, 242, 242);
-	border: 1px solid rgb(242, 242, 242);
-	border-radius: 15px;
-	padding: 0.1em;
-	padding-right: 0.25em;
-	padding-left: 0.25em;
-	color: #3b3b38;
+	color: #222;
 }
 
 a:hover {
+	color: red;
+}
+
+a p {
+	margin: 8px 0px 8px 0px;
+	color: #282828;
+	font-size: 1em;
+	font-weight: 200;
+	padding-left: 1em;
+}
+
+a:hover p{
 	color: red;
 }
 
